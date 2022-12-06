@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ['*']
 
 
 # Application definition
-
+mimetypes.add_type("text/css", ".css", True)
 
 INSTALLED_APPS = [
     'django.contrib.admin',
